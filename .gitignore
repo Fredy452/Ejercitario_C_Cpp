@@ -1,0 +1,24 @@
+# Archivos ejecutables (sin extensión en Linux, .exe en Windows)
+*
+!*.*
+*.exe
+
+# Archivos objeto y bibliotecas compiladas
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+
+# Archivos de dependencias
+*.d
+
+# Carpeta de compilación común
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Archivos específicos que podrían generarse por defecto
+a.out
