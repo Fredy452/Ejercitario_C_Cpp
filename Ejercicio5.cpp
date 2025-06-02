@@ -26,8 +26,7 @@ int main()
     }
 
     // Imprimos los numeros menores o iguales a 25
-    i = 0;  // Reset i to 0
-    for ( i; i < NUM_VECTOR; i++)
+    for ( i = 0; i < NUM_VECTOR; i++)
     {
         if (elementos[i] <= 25)
         {
